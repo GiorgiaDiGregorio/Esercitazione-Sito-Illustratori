@@ -242,6 +242,31 @@ footer ul {
     
 }
 
+@media (max-width: 400px) {
+    header {
+        padding: 12px 32px;
+    }
+
+    .social {
+        display: none;
+    }
+    .grid {
+        column-count: 1;
+        padding: 0 16px 0;
+    }
+    
+    .media {
+        gap: 12px;
+        margin: 64px;
+    }
+
+    .componenti {
+        display: flex;
+        margin: 12px;
+        gap: 12px;
+        align-items: center;
+    }
+}
 
 
 
