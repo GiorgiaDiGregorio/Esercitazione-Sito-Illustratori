@@ -20,6 +20,7 @@ header {
     padding: 12px 64px;
     align-items: center;
     justify-content: space-between;
+    white-space: nowrap;
 }
 
 header p a {
@@ -223,14 +224,17 @@ footer ul {
 
 
 @media (max-width: 600px) {
+
+    header {
+        padding: 12px 12px;
+    }
     .grid {
         column-count: 1;
         padding: 0 16px 0;
     }
-    
-    .media {
-        gap: 12px;
-        margin: 64px;
+
+    .social, .media {
+        display: none;
     }
 
     .componenti {
@@ -238,18 +242,22 @@ footer ul {
         margin: 12px;
         gap: 12px;
         align-items: center;
+    }
+    footer .componenti {
+        gap: 32px;
     }
     
 }
 
 @media (max-width: 400px) {
     header {
-        padding: 12px 32px;
+        padding: 12px 12px;
     }
 
-    .social {
-        display: none;
+    header p, ul {
+        font-size: 12px;
     }
+
     .grid {
         column-count: 1;
         padding: 0 16px 0;
@@ -266,6 +274,12 @@ footer ul {
         gap: 12px;
         align-items: center;
     }
+
+    footer .componenti {
+        gap: 32px;
+    }
+
+
 }
 
 
