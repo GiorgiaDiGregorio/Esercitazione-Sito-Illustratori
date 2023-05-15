@@ -216,11 +216,12 @@ footer ul {
         column-count: 2;
         padding: 0 16px 0;
     }
- 
-    
-    footer .componenti {
-        gap: 32px;
+
+    footer {
+        padding: 0 8px;
     }
+
+
 
 }
 
@@ -248,16 +249,8 @@ footer ul {
     }
 
     .componenti {
-        display: flex;
         margin: 12px;
-        gap: 12px;
-        align-items: center;
-    }
-
-    footer {
-        padding: 0 24px 0;
-    }
-    
+    }   
     
 }
 
